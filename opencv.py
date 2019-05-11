@@ -15,6 +15,7 @@ while True:
     for key, value in upper.items():
         kernel = np.ones((7,7),np.uint8)
         mask = cv2.inRange(hsv, lower[key], upper[key])
+        # m
         mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
         mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
         center = None
