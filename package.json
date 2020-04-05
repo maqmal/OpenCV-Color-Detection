@@ -1,0 +1,22 @@
+{
+  "name": "opencv-color-detection",
+  "version": "1.0.0",
+  "description": "Python code for multiple color detection",
+  "main": "kuisioner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maqmal/OpenCV-Color-Detection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maqmal/OpenCV-Color-Detection/issues"
+  },
+  "homepage": "https://github.com/maqmal/OpenCV-Color-Detection#readme",
+  "dependencies": {
+    "nightmare": "^3.0.2"
+  }
+}
