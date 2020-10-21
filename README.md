@@ -1,25 +1,4 @@
-# OpenCV-Color-Detection
-Python code for multiple color detection
-
-# Technique used :
-
-HSV Conversion
-
-Gaussian Blurring
-
-Morphological Transformations
-
-Contour Approximation
-
-Contour Drawing
-
-Shape Detection
-
-
-
-
 # Alternative color
-
 
     lower_blue = np.array([101,157,0])	    
     upper_blue = np.array([117,255,255])
